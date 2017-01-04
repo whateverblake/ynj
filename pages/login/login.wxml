@@ -1,0 +1,53 @@
+<view  class="container loginTypeSelect">
+  
+  <view>
+     <radio-group bindchange="loginTypeSelect">
+        <radio value="normalLoginTypeRadio" checked="true" >
+             <text style="color:#92D050;">普通登陆</text>
+        </radio>
+        <radio id="phoneLoginTypeRadio" value="phoneLoginTypeRadio">
+              <text>手机验证码登陆</text>
+          </radio>
+      </radio-group>
+  </view>
+
+  <view id="normalLoginArea" style="margin-top:100rpx;">
+        <input type="text"  style="margin-top:20px;border-bottom:1px solid black;"    placeholder-style="color:#92D050"  placeholder="请输入手机号码/邮箱"/>
+
+        <view  style="margin-top:40rpx;">
+            <input password style="border-bottom:1px solid black;display:inline-block;" placeholder-style="color:#92D050" placeholder="请输入密码"/>
+            <button size="mini" style="display:inline-block;background-color:#fff;color:#92D050;border-color:#92D050;">显示密码</button>
+        </view>
+  </view>
+
+
+
+    <view id="smsLoginArea" style="margin-top:100rpx;display:none;">
+        <input type="number"  style="margin-top:20rpx;border-bottom:1px solid black;"    placeholder-style="color:#92D050"  placeholder="请输入手机号码"/>
+
+        <view  style="margin-top:40rpx;">
+            <input password style="border-bottom:1px solid black;display:inline-block;" placeholder-style="color:#92D050" placeholder="请输入验证码"/>
+            <button size="mini" style="display:inline-block;background-color:#fff;color:#92D050;border-color:#92D050;">获取验证码</button>
+        </view>
+  </view>
+
+</view>
+
+
+<view id="loginButton" style="margin-top:80rpx;margin-left: 120rpx; margin-right: 120rpx; ">
+  <button size="default" style="background-color:#92D050;color:#fff;">登陆</button>
+</view>
+
+
+
+<div style="margin-top:100rpx;display:block;">
+    <div style="display:inline-block;border:1px solid #92D050 ;border-radius: 5px;color:#92D050;margin-left:120rpx;">立即注册</div> 
+    <div style="display:inline-block;border:1px solid #92D050 ;border-radius: 5px;color:#92D050;margin-left:200rpx;">忘记密码</div> 
+</div>
+ <hr style="border:solid 1px #92D050;" />
+
+
+
+
+
+

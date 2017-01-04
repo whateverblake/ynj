@@ -1,0 +1,13 @@
+.loginTypeSelect{
+   display: flex;
+   padding:0px;
+   padding-top:100rpx;
+
+
+}
+
+#phoneLoginTypeRadio{
+  margin-left:40rpx ; 
+
+}
+
